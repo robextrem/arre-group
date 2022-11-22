@@ -1,4 +1,5 @@
 let combinados = ["Yurian", 5, "c", 7.9, "Chocolate"];
+let numeros = [5,6,3,2,4,3,2,1];
 let personas = ["Sergio", "Angy", "Yurian", "Roberto"];
 let helados = ["Chocomenta", "Napolitano", "Coco", "Chocolate"];
 
@@ -13,6 +14,10 @@ for(let helado of helados){
 
 helados.forEach(function(helado){
     console.log("Un sabor es:(foreach) "+ helado);
+});
+
+helados.forEach(function(x){
+    console.log("Un sabor es:(foreach) "+ x);
 });
 
 
