@@ -6,14 +6,18 @@ function operacion(){
     let resultado = espar(n);
     // 9 es impar
     document.querySelector(".hola").innerHTML += "<p class='azul'>"+resultado+"</p>";
+    document.querySelector(".hola").innerHTML += `<p class="azul">${resultado}</p>`;
 }
 
 function espar(b)
 {
    if (b % 2 == 0){
-    return b + " es par"
+
+    return `${b} es par`;
+    //  return b + " es par"
     }
-    else{
-    return b + " es impar"
+    else{  
+    return `${b} es impar`;
+    //return b + " es impar"
    }
 }

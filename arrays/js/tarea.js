@@ -9,7 +9,7 @@ function numerosPares(arreglo){
     for (let i = 0; i < arreglo.length; i++){
         let esPar = arreglo[i] % 2;
         if (esPar == 0){
-            console.log("El número "+ arreglo[i] + " es par uwu");
+            console.log(`El número ${arreglo[i]} es par uwu`);
         }
         else{
             console.log("El número "+ arreglo[i] + " es impar unu");
